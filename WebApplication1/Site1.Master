@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 612px;
+        }
+        .auto-style2 {
+            margin-top: 0px;
+            margin-left: 301px;
+            margin-right: 0px;
+        }
+        .auto-style3 {
+            height: 46px;
+        }
+        .auto-style4 {
+            height: 622px;
+        }
+        </style>
+</head>
+<body style="height: 610px">
+    <form id="form1" runat="server" class="auto-style4">
+        <div  class="auto-style1">
+            <asp:Panel ID="Panel1" runat="server" BackColor="#555555" Height="5px" Width="1271px">
+                <p style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';font-size:40px;text-align:center;" class="auto-style3">Ejemplo de APS.NET<asp:Panel ID="Panel2" runat="server" CssClass="auto-style2" Height="550px" Width="586px">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+                    </asp:ContentPlaceHolder>
+                    </asp:Panel >
+                    
+            </asp:Panel>
+            
+        </div>
+        <asp:Label ID="Label2" runat="server" BackColor="#9999FF" Text="ParienteSoft"></asp:Label>
+        </form>
+</body>
+</html>

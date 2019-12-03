@@ -1,0 +1,39 @@
+﻿body {
+    background-color: gray;
+   
+}
+.prueba {
+    background-color:darkgoldenrod;
+   
+    width: 500px;
+    height:250px;
+    padding: 150px 59px 150px 80px;
+    vertical-align:central;
+    text-align:center;
+    overflow:inherit;
+}
+.Label{
+    font-display:optional;
+    font-family:'Baskerville Old Face';
+    font-size:20px;
+}
+.btn{
+    font-family:'Arial Rounded MT';
+    font-size:12px;
+    width:100px;
+    height:200px;
+}
+.Image{
+    
+}
+.panelLogueo {
+    padding-left:5em;
+    
+    padding-bottom: 10em;
+    padding-top: 5em;
+    margin-left: 10em;
+    margin-right: 5em;
+    width: 200px;
+    height: 100px;
+    background-color: darkgoldenrod;
+}
